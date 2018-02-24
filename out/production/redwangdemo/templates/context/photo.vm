@@ -1,0 +1,224 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>照片墙</title>
+    <meta charset="utf-8" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="/css/main.css" />
+  </head>
+  <body class="animsition">
+    <div class="shop-layout-1" id="page">
+      <header class="header-style-1 static">
+        <div class="container">
+            <div class="row">
+                <div class="header-1-inner">
+                    <a class="brand-logo animsition-link" href="/homepage/home">
+                        <img class="img-responsive" src="/images/logo7.png" alt="" />
+                    </a>
+                    <nav>
+                        <ul class="menu hidden-xs">
+                            <li><a href="/homepage/home"><font size="4">首页</font></a></li>
+                            <li><a href="/show/photo"><font size="4">照片墙</font></a></li>
+                            <li><a href="/life/fun"><font size="4">逗货趣事</font></a><li>
+                            <li><a href="/members/list"><font size="4">班上同学</font></a></li>
+                            <li><a href="/homepage/home"><font size="4">关于我们</font></a></li>
+                            <!--<li><a href="shop-cart.html">Shop Cart</a></li>-->
+                            <!--<li><a href="check-out.html">Checkout</a></li>-->
+                        </ul>
+                    </nav>
+                    <aside class="right">
+                        <div class="widget widget-control-header">
+                            <i class="fa fa-user" style="color: #00A0D1"></i>&nbsp;欢迎redwang
+                        </div>
+                        <div class="widget widget-control-header widget-shop-cart js-widget-shop-cart">
+                            <a class="control" href="/logout">
+                                <i class="fa fa-power-off"></i><font color="#8B2500" size="4">退出</font>
+                            </a>
+                        </div>
+                    </aside>
+                </div>
+            </div>
+        </div>
+      </header>
+      <section class="sub-header shop-layout-1">
+        <img class="rellax bg-overlay" src="/images/sub-header/123.jpg" alt="">
+        <div class="overlay-call-to-action"></div>
+        <h3 class="heading-style-3">Photo Wall</h3>
+      </section>
+      <div class="woocommerce-top-control wrapper">
+        <section class="boxed-sm">
+          <div class="container">
+            <div class="row">
+              <div class="woocommerce-top-control">
+                  <p class="woocommerce-result-count"><font color="#97ae76">美好的时光要留下来，不是吗？</font></p>
+                <button class="btn btn-wishlist btn-brand-ghost no-radius" data-toggle="modal" data-target="#upload-pic">
+                    <i class="fa fa-camera"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <section class="box-sm">
+        <div class="container">
+          <div class="row main">
+            <div class="row product-grid-equal-height-wrapper product-equal-height-4-columns flex multi-row">
+              <figure class="item">
+                <div class="product product-style-1">
+                  <div class="img-wrapper">
+                    <a href="#">
+                      <img class="img-responsive" src="/images/product/01.jpg" alt="product thumbnail" />
+                    </a>
+                    <div class="product-control-wrapper bottom-right">
+                      <div class="wrapper-control-item">
+                        <a class="js-quick-view" href="#" type="button" data-toggle="modal" data-target="#quick-view-product">
+                          <span class="lnr lnr-eye"></span>
+                        </a>
+                      </div>
+                      <div class="wrapper-control-item item-add-cart js-action-add-cart">
+                        <a class="animate-icon-cart" href="#">
+                          <span class="lnr lnr-heart"></span>
+                        </a>
+                        <svg x="0px" y="0px" width="36px" height="32px" viewbox="0 0 36 32">
+                          <path stroke-dasharray="19.79 19.79" fill="none" ,="," stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" d="M9,17l3.9,3.9c0.1,0.1,0.2,0.1,0.3,0L23,11"></path>
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                  <figcaption class="desc text-center">
+                    <h3>
+                      <a class="product-name" href="#"><b>王红的相册</b></a>
+                        <span class="price"><i class="fa fa-heart" style="color: #97ae76"></i> 9999</span>
+                    </h3>
+                  </figcaption>
+                </div>
+              </figure>
+            </div>
+
+            <div class="row">
+              <div class="col-md-12 text-right">
+                <nav>
+                  <ul class="pagination pagination-style-1">
+                    <li>
+                      <a class="prev page-numbers" href="#">
+                        <i class="fa fa-angle-left"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="page-numbers" href="#">1</a>
+                    </li>
+                    <li>
+                      <a class="next page-numbers" href="#">
+                        <i class="fa fa-angle-right"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+    </div>
+    <footer class="footer-style-1">
+      <div class="copy-right style-1">
+        <div class="container">
+          <div class="row">
+            <div class="copy-right-inner">
+              <p>Copyright © 2017 Designed by RedWang. All rights reserved.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+    <div class="modal fade" id="quick-view-product" tabindex="-1" role="dialog">
+      <div class="modal-dialog modal-lg modal-quickview woocommerce" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">×</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="summary">
+                  <div class="desc">
+                    <div class="header-desc">
+                        <form class="cart">
+                            <div class="quantity buttons-added">
+                                <input class="input-text qty text" step="1" min="1" max="" name="quantity" value="1" title="Qty" size="4" pattern="[0-9]*" inputmode="numeric" type="number" />
+                            </div>
+                        </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+## 上传照片
+    <div class="modal fade" id="upload-pic" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-lg modal-quickview woocommerce" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="summary">
+                                <div class="desc">
+                                    <div class="header-desc">
+                                        <form class="cart">
+
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="/js/library/jquery.min.js"></script>
+    <script src="/js/library/bootstrap.min.js"></script>
+    <script src="/js/function-check-viewport.js"></script>
+    <script src="/js/library/slick.min.js"></script>
+    <script src="/js/library/select2.full.min.js"></script>
+    <script src="/js/library/imagesloaded.pkgd.min.js"></script>
+    <script src="/js/library/jquery.mmenu.all.min.js"></script>
+    <script src="/js/library/rellax.min.js"></script>
+    <script src="/js/library/isotope.pkgd.min.js"></script>
+    <script src="/js/library/bootstrap-notify.min.js"></script>
+    <script src="/js/library/bootstrap-slider.js"></script>
+    <script src="/js/library/in-view.min.js"></script>
+    <script src="/js/library/countUp.js"></script>
+    <script src="/js/library/animsition.min.js"></script>
+    <script src="/js/global.js"></script>
+    <script src="/js/config-mm-menu.js"></script>
+    <script src="/js/config-carousel-product-quickview.js"></script>
+    <!-- Demo Only-->
+    <script src="/js/demo-add-to-cart.js">
+
+
+    </script>
+  </body>
+</html>
+

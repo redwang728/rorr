@@ -1,0 +1,99 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>上海巨回收再生资源有限公司</title>
+<meta name="keywords" content="上海巨回收再生资源有限公司" />
+<meta name="description" content="上海巨回收再生资源有限公司" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7"/>
+<link type="text/css" href="/css/style.css" rel="stylesheet" />
+<script type="text/javascript" src="/js/jquery.1.4.2.min.js"></script>
+<script type="text/javascript" src="/js/lib.js"></script>
+<script type="text/javascript">
+$(function() {
+
+	//导航
+	$(".nav").lavaLamp({
+		fx: "backinout", 
+		speed: 700,
+		click: function(event, menuItem) {
+			return true;
+		}
+	});
+	
+});
+</script>
+<!--解决 IE6 背景缓存-->
+<!--[if IE 6]><script type="text/javascript">document.execCommand("BackgroundImageCache", false, true);</script><![endif]-->
+</head>
+
+<body>
+
+	<div class="container header">
+		<a class="logo" href="#"><img src="images/lo3.png" width="203" height="56" alt="" /></a>
+		<div class="ritside">
+			<script type="text/javascript">
+			document.write("<div class='today'>"+
+				getFullYear(today)+"年&nbsp;&nbsp;"
+				+isnMonths[today.getMonth()]+"月"
+				+today.getDate()+"日&nbsp;&nbsp;"
+				+isnDays[today.getDay()]
+			+"</div>");
+			</script>
+			<div class="telephone"><img src="images/telephone.gif" width="226" height="29" alt="咨询电话：0577-86602010" /></div>
+		</div>
+		<div class="clear"></div>
+		
+		<div class="nav">
+			<div class="nlbg"></div>
+            <ul>
+                <li><a href="/index">首 页</a></li>
+                <li class="current"><a href="/about">关于我们</a></li>
+                <li><a href="/product">回收项目</a></li>
+                <li><a href="/job">加入我们</a></li>
+                <li><a href="/serve">服务介绍</a></li>
+                <li class="last"><a href="/contact">联系我们</a></li>
+            </ul>
+			<div class="nrbg"></div>
+		</div>
+	</div><!--header end-->
+	
+	<div class="container content">
+		
+		<div class="banner"><a href="#"><img src="images/banner.jpg" width="960" height="277" alt="" /></a></div>
+		
+		<div class="left">
+			<div class="leftcon">
+				<div class="leftnav">
+##					<h2 class="title01">关于我们</h2>
+					<ul>
+						<li class="current"><a href="#">关于我们</a></li>
+						<li><a href="#">企业文化</a></li>
+					</ul>
+				</div>
+				<div class="leftbtn"></div>
+			</div>
+			
+			<div class="side-tel"><a href="#"><img src="images/side-telephone.gif" width="211" height="71" alt="咨询热线" /></a></div>
+		</div><!--left end-->
+		
+		<div class="right">
+			<div class="breadcrumbs"><img src="images/home-icon.gif" width="16" height="17" alt="首页" />当前位置：<a href="#">首页</a><span>></span><span>关于我们</span></div>
+			<div class="about">
+				<img src="images/2014101110283224213.jpg" width="242" height="157" alt="" />
+				<p>上海巨回收再生资源有限公司长期面向上海市及周边地区的多家企事业单位、公司、商场，宾馆，学校，酒店等提供二手物资、二手机械设备、库存积压、中央空调、变压电器、厨房设备、办公家具、办公设备、屏风隔断、废旧物资、废旧设备、拆除工程、工业物资、企业设备、再利用物资等服务，高价回收，现金交易。</p>
+                <p>我们绝对是一家正规的物资回收单位，拥有丰富的工作经验，完善的信息渠道和雄厚的经济实力，是集回收型与贸易型为一体的综合型公司，我们坚持诚信、公平、高效、安全的服务原则，致力于为广大客户提供方便和满意的服务。公司自开业以来有很多成功的回收案例，也得到个人，家庭，企业以及很多机构的一致好评，本公司把诚信摆在首要位置，本着“诚信为本”的原则，依照“服务大众”的态度，勤勤恳恳的经营。</p>
+			</div>
+		</div><!--right end-->
+		
+		<div class="clear"></div>
+		
+	</div><!--content end-->
+	
+	<div class="container footer">
+        <div class="btnmenu"><a href="/index">首 页</a><span>|</span><a href="/about">企业介绍</a><span>|</span><a href="/product">回收项目</a><span>|</span><a href="/job">加入我们</a><span>|</span><a href="/serve">服务介绍</a><span>|</span><a href="/contact">联系我们</a></div>
+		<div class="copyright">Copyright © 2018　上海巨回收再生资源公司所有<br />沪ICP备11030275号-2</div>
+	</div><!--footer end-->
+	
+</body>
+</html>

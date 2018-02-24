@@ -1,0 +1,165 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>上海巨回收再生资源有限公司</title>
+<meta name="keywords" content="上海巨回收再生资源有限公司" />
+<meta name="description" content="上海巨回收再生资源有限公司" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7"/>
+<link type="text/css" href="/css/style.css" rel="stylesheet" />
+<script type="text/javascript" src="/js/jquery.1.4.2.min.js"></script>
+<script type="text/javascript" src="/js/lib.js"></script>
+<script type="text/javascript">
+$(function() {
+
+	//导航
+	$(".nav").lavaLamp({
+		fx: "backinout", 
+		speed: 700,
+		click: function(event, menuItem) {
+			return true;
+		}
+	});
+	
+	//服务
+	$("#scrolltop").myScroll({
+		speed:40,
+		rowHeight:26
+	});
+	
+	//回收项目
+	$("#scrollpic").jCarouselLite({
+		btnPrev:'.prev',
+		btnNext:'.next',
+		auto:2000,
+		visible:4
+	});	
+	
+});
+</script>
+<!--解决 IE6 背景缓存-->
+<!--[if IE 6]><script type="text/javascript">document.execCommand("BackgroundImageCache", false, true);</script><![endif]-->
+</head>
+
+<body>
+
+	<div class="container header">
+		<a class="logo" href="#"><img src="images/lo3.png" width="203" height="56" alt="" /></a>
+		<div class="ritside">
+			<script type="text/javascript">
+			document.write("<div class='today'>"+
+				getFullYear(today)+"年&nbsp;&nbsp;"
+				+isnMonths[today.getMonth()]+"月"
+				+today.getDate()+"日&nbsp;&nbsp;"
+				+isnDays[today.getDay()]
+			+"</div>");
+			</script>
+			<div class="telephone"><img src="images/telephone.gif" width="226" height="29" alt="咨询电话：0577-86602010" /></div>
+		</div>
+		<div class="clear"></div>
+		
+		<div class="nav">
+			<div class="nlbg"></div>
+            <ul>
+                <li class="current"><a href="/index">首 页</a></li>
+                <li><a href="/about">关于我们</a></li>
+                <li><a href="/product">回收项目</a></li>
+                <li><a href="/job">加入我们</a></li>
+                <li><a href="/serve">服务介绍</a></li>
+                <li class="last"><a href="/contact">联系我们</a></li>
+            </ul>
+			<div class="nrbg"></div>
+		</div>
+	</div><!--header end-->
+	
+	<div class="container content">
+		
+		<div class="banner"><a href="#"><img src="images/banner.jpg" width="960" height="277" alt="" /></a></div>
+		
+		<div class="f-l i-company pubox">
+			<div class="putit"><h2 class="f-l">公司介绍</h2><a class="f-r more" href="/about">更多>></a></div>
+			<div class="pubcon">
+				<a href="about.vm"><img class="f-l" src="images/2014101110283224213.jpg" width="171" height="114" alt="公司介绍" /></a>
+				<p>随着时代发展迅猛，造成的废旧物品也与日俱增。对于废旧物品的处理就成了人们生活中很头疼的问题。而我们就致力于废旧物品的处理。我可以高价回收您的废旧物品进行再生处理...</p>
+				<div class="clear"></div>
+			</div>
+		</div>
+		
+		<div class="f-l i-news pubox">
+			<div class="putit"><h2 class="f-l">服务介绍</h2><a class="f-r more" href="/serve">更多>></a></div>
+			<div class="pubcon" id="scrolltop">
+				<ul>
+					<li><em class="dian">·</em><a href="serve.vm">上海巨回收再生资源有限公司</a><span class="date">[05-26]</span></li>
+					<li><em class="dian">·</em><a href="serve.vm">上海巨回收再生资源有限公司</a><span class="date">[05-26]</span></li>
+					<li><em class="dian">·</em><a href="serve.vm">上海巨回收再生资源有限公司</a><span class="date">[05-26]</span></li>
+					<li><em class="dian">·</em><a href="serve.vm">上海巨回收再生资源有限公司</a><span class="date">[05-26]</span></li>
+					<li><em class="dian">·</em><a href="serve.vm">上海巨回收再生资源有限公司</a><span class="date">[05-26]</span></li>
+					<li><em class="dian">·</em><a href="serve.vm">上海巨回收再生资源有限公司</a><span class="date">[05-26]</span></li>
+				</ul>
+			</div>
+		</div>
+		
+		<div class="f-r i-contact pubox">
+			<div class="putit"><h2 class="f-l">联系方式</h2><a class="f-r more" href="/contact">更多>></a></div>
+			<div class="pubcon">
+				地 址：上海市浦东新区<br />联系人：王某某<br />电 话：13093636539<br />邮 箱：<a style="text-decoration:underline;" href="mailto:1252468997@qq.com">1252468997@qq.com</a>
+			</div>
+		</div>
+		
+		<div class="clear"></div>
+		
+		<div class="f-l i-product pubox">
+			<div class="putit"><h2 class="f-l">回收项目</h2><a class="f-r more" href="/product">更多>></a></div>
+			<div class="pubcon">
+				<div class="f-l sbtn prev"></div>
+				<div id="scrollpic">
+					<ul>
+						<li>
+							<a href="/product"><img src="images/product/2014101020264730494.jpg" width="140" height="122" alt="" /></a>
+							<span><a href="/product">中央空调回收</a></span>
+						</li>
+						<li>
+							<a href="/product"><img src="images/product/201441117351339948.jpg" width="140" height="122" alt="" /></a>
+							<span><a href="/product">废旧锅炉回收</a></span>
+						</li>
+						<li>
+							<a href="/product"><img src="images/product/201441117292232491.jpg" width="140" height="122" alt="" /></a>
+							<span><a href="/product">变压器回收</a></span>
+						</li>
+						<li>
+							<a href="/product"><img src="images/product/201441117313348208.jpg" width="140" height="122" alt="" /></a>
+							<span><a href="/product">废旧金属回收</a></span>
+						</li>
+                        <li>
+                            <a href="/product"><img src="images/product/201412810432087399.jpg" width="140" height="122" alt="" /></a>
+                            <span><a href="/product">电线电缆回收</a></span>
+                        </li>
+					</ul>
+				</div>
+				<div class="f-r sbtn next"></div>
+				<div class="clear"></div>
+			</div>
+		</div>
+		
+		<div class="f-r i-friendship pubox">
+			<div class="putit"><h2 class="f-l">其他联系方式</h2></div>
+			<div class="pubcon">
+				<ul>
+					<li style="width: 300px"><em class="dian">·</em><a href="#">微信：</a></li>
+					<li style="width: 300px"><em class="dian">·</em><a href="#">QQ：</a></li>
+					<li style="width: 300px"><em class="dian">·</em><a href="#">手机：</a></li>
+				</ul>
+			</div>
+		</div>
+		
+		<div class="clear"></div>
+		
+	</div><!--content end-->
+
+    <div class="container footer">
+        <div class="btnmenu"><a href="/index">首 页</a><span>|</span><a href="/about">企业介绍</a><span>|</span><a href="/product">回收项目</a><span>|</span><a href="/job">加入我们</a><span>|</span><a href="/serve">服务介绍</a><span>|</span><a href="/contact">联系我们</a></div>
+        <div class="copyright">Copyright © 2018　上海巨回收再生资源公司所有<br />沪ICP备11030275号-2</div>
+    </div><!--footer end-->
+	
+</body>
+</html>

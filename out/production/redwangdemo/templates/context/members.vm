@@ -1,0 +1,282 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>班上同学</title>
+    <meta charset="utf-8" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="/css/main.css" />
+  </head>
+  <body class="animsition">
+    <div class="wish-list" id="page">
+      <header class="header-style-1 static">
+        <div class="container">
+          <div class="row">
+              <div class="header-1-inner">
+                  <a class="brand-logo animsition-link" href="/homepage/home">
+                      <img class="img-responsive" src="/images/logo7.png" alt="" />
+                  </a>
+                  <nav>
+                      <ul class="menu hidden-xs">
+                          <li><a href="/homepage/home"><font size="4">首页</font></a></li>
+                          <li><a href="/show/photo"><font size="4">照片墙</font></a></li>
+                          <li><a href="/life/fun"><font size="4">逗货趣事</font></a><li>
+                          <li><a href="/members/list"><font size="4">班上同学</font></a></li>
+                          <li><a href="/homepage/home"><font size="4">关于我们</font></a></li>
+                          <!--<li><a href="shop-cart.html">Shop Cart</a></li>-->
+                          <!--<li><a href="check-out.html">Checkout</a></li>-->
+                      </ul>
+                  </nav>
+                  <aside class="right">
+                      <div class="widget widget-control-header">
+                          <i class="fa fa-user" style="color: #00A0D1"></i>&nbsp;欢迎redwang
+                      </div>
+                      <div class="widget widget-control-header widget-shop-cart js-widget-shop-cart">
+                          <a class="control" href="/logout">
+                              <i class="fa fa-power-off"></i><font color="#8B2500" size="4">退出</font>
+                          </a>
+                      </div>
+                  </aside>
+              </div>
+          </div>
+        </div>
+      </header>
+      <section class="sub-header shop-detail-1">
+        <img class="rellax bg-overlay" src="/images/sub-header/sd.jpg" alt="">
+        <div class="overlay-call-to-action"></div>
+        <h3 class="heading-style-3">Our Classmates</h3>
+      </section>
+
+        <div class="woocommerce-top-control wrapper">
+            <section class="boxed-sm">
+                <div class="container">
+                    <div class="row">
+                        <div class="woocommerce-top-control">
+                            <p class="woocommerce-result-count"><font color="#97ae76">注册一个帐号吧！留下号码，我们常联系，老同学^_^</font></p>
+                            <button class="btn btn-wishlist btn-brand-ghost no-radius" data-toggle="modal" data-target="#upload-pic">
+                                <i class="fa fa-registered"></i>注册
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+      <section class="boxed-sm">
+        <div class="container">
+          <div class="woocommerce">
+            <form class="woocommerce-cart-form">
+              <table class="woocommerce-cart-table">
+                <thead>
+                  <tr>
+                    <th class="product-thumbnail">光鲜靓照</th>
+                    <th class="product-name">尊姓大名</th>
+                    <th class="product-price">人送绰号</th>
+                    <th class="product-status">传音方式</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="product-thumbnail">
+                      <img style="width: 102px;height: 86px" src="/images/product/avatar04.png" alt="product-thumbnail">
+                    </td>
+                    <td class="product-name" data-title="Product">
+                      <a class="product-name" href="#">王红</a>
+                    </td>
+                    <td class="product-price" data-title="Weight">无绰号</td>
+                    <td class="product-stock-status" data-title="Stock Status">
+                      <a href="#">13093636539</a>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </form>
+
+              <div class="row">
+                  <div class="col-md-12 text-right">
+                      <nav>
+                          <ul class="pagination pagination-style-1">
+                              <li>
+                                  <a class="prev page-numbers" href="#">
+                                      <i class="fa fa-angle-left"></i>
+                                  </a>
+                              </li>
+                              <li>
+                                  <a class="page-numbers" href="#">1</a>
+                              </li>
+                              <li>
+                                  <a class="next page-numbers" href="#">
+                                      <i class="fa fa-angle-right"></i>
+                                  </a>
+                              </li>
+                          </ul>
+                      </nav>
+                  </div>
+              </div>
+
+          </div>
+        </div>
+      </section>
+    </div>
+    <footer class="footer-style-1">
+      <div class="copy-right style-1">
+        <div class="container">
+          <div class="row">
+            <div class="copy-right-inner">
+              <p>Copyright © 2017 Designed by RedWang. All rights reserved.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div class="modal fade" id="quick-view-product" tabindex="-1" role="dialog">
+      <div class="modal-dialog modal-lg modal-quickview woocommerce" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">×</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="woocommerce-product-gallery">
+                  <div class="main-carousel-product-quick-view">
+                    <div class="item">
+                      <img class="img-responsive" src="/images/product/01.jpg" alt="product thumbnail" />
+                    </div>
+                    <div class="item">
+                      <img class="img-responsive" src="/images/product/02.jpg" alt="product thumbnail" />
+                    </div>
+                    <div class="item">
+                      <img class="img-responsive" src="/images/product/03.jpg" alt="product thumbnail" />
+                    </div>
+                    <div class="item">
+                      <img class="img-responsive" src="/images/product/04.jpg" alt="product thumbnail" />
+                    </div>
+                    <div class="item">
+                      <img class="img-responsive" src="/images/product/05.jpg" alt="product thumbnail" />
+                    </div>
+                  </div>
+                  <div class="thumbnail-carousel-product-quickview">
+                    <div class="item">
+                      <img class="img-responsive" src="/images/product/01.jpg" alt="product thumbnail" />
+                    </div>
+                    <div class="item">
+                      <img class="img-responsive" src="/images/product/02.jpg" alt="product thumbnail" />
+                    </div>
+                    <div class="item">
+                      <img class="img-responsive" src="/images/product/03.jpg" alt="product thumbnail" />
+                    </div>
+                    <div class="item">
+                      <img class="img-responsive" src="/images/product/04.jpg" alt="product thumbnail" />
+                    </div>
+                    <div class="item">
+                      <img class="img-responsive" src="/images/product/05.jpg" alt="product thumbnail" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="summary">
+                  <div class="desc">
+                    <div class="header-desc">
+                      <h2 class="product-title">Sald</h2>
+                      <p class="price">$2.00</p>
+                    </div>
+                    <div class="body-desc">
+                      <div class="woocommerce-product-details-short-description">
+                        <p>Duis vestibulum ante velit. Pellentesque orci felis, pharetra ut pharetra ut, interdum at mauris. Aenean efficitur aliquet libero sit amet scelerisque. Suspendisse efficitur mollis eleifend. Aliquam tortor nibh, venenatis quis
+                          sem dapibus, varius egestas lorem a sollicitudin. </p>
+                      </div>
+                    </div>
+                    <div class="footer-desc">
+                      <form class="cart">
+                        <div class="quantity buttons-added">
+                          <input class="minus" value="-" type="button" />
+                          <input class="input-text qty text" step="1" min="1" max="" name="quantity" value="1" title="Qty" size="4" pattern="[0-9]*" inputmode="numeric" type="number" />
+                          <input class="plus" value="+" type="button" />
+                        </div>
+                        <div class="group-btn-control-wrapper">
+                          <button class="btn btn-brand no-radius">ADD TO CART</button>
+                          <button class="btn btn-wishlist btn-brand-ghost no-radius">
+                            <i class="fa fa-heart"></i>
+                          </button>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                  <div class="product-meta">
+                    <p class="posted-in">Categories:
+                      <a href="#" rel="tag">Food</a>
+                    </p>
+                    <p class="tagged-as">Tags:
+                      <a href="#" rel="tag">Natural</a>,
+                      <a href="#" rel="tag">Organic</a>,
+                      <a href="#" rel="tag">Health</a>,
+                      <a href="#" rel="tag">Green</a>,
+                      <a href="#" rel="tag">Vegetable</a>
+                    </p>
+                    <p class="id">ID:
+                      <a href="#">A203</a>
+                    </p>
+                  </div>
+                  <div class="widget-social align-left">
+                    <ul>
+                      <li>
+                        <a class="facebook" data-toggle="tooltip" title="Facebook" href="http://www.facebook.com/authemes">
+                          <i class="fa fa-facebook"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a class="pinterest" data-toggle="tooltip" title="Pinterest" href="http://www.pinterest.com/authemes">
+                          <i class="fa fa-pinterest"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a class="twitter" data-toggle="tooltip" title="Twitter" href="http://www.twitter.com/authemes">
+                          <i class="fa fa-twitter"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a class="google-plus" data-toggle="tooltip" title="Google Plus" href="https://plus.google.com/authemes">
+                          <i class="fa fa-google-plus"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a class="instagram" data-toggle="tooltip" title="Instagram" href="https://instagram.com/authemes">
+                          <i class="fa fa-instagram"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="/js/library/jquery.min.js"></script>
+    <script src="/js/library/bootstrap.min.js"></script>
+    <script src="/js/function-check-viewport.js"></script>
+    <script src="/js/library/slick.min.js"></script>
+    <script src="/js/library/select2.full.min.js"></script>
+    <script src="/js/library/imagesloaded.pkgd.min.js"></script>
+    <script src="/js/library/jquery.mmenu.all.min.js"></script>
+    <script src="/js/library/rellax.min.js"></script>
+    <script src="/js/library/isotope.pkgd.min.js"></script>
+    <script src="/js/library/bootstrap-notify.min.js"></script>
+    <script src="/js/library/bootstrap-slider.js"></script>
+    <script src="/js/library/in-view.min.js"></script>
+    <script src="/js/library/countUp.js"></script>
+    <script src="/js/library/animsition.min.js"></script>
+    <script src="/js/global.js"></script>
+    <script src="/js/config-mm-menu.js"></script>
+  </body>
+</html>
+

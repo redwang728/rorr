@@ -1,0 +1,186 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>上海巨回收再生资源有限公司</title>
+<meta name="keywords" content="上海巨回收再生资源有限公司" />
+<meta name="description" content="上海巨回收再生资源有限公司" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7"/>
+<link type="text/css" href="/css/style.css" rel="stylesheet" />
+<script type="text/javascript" src="/js/jquery.1.4.2.min.js"></script>
+<script type="text/javascript" src="/js/lib.js"></script>
+<script type="text/javascript">
+$(function() {
+
+	//导航
+	$(".nav").lavaLamp({
+		fx: "backinout", 
+		speed: 700,
+		click: function(event, menuItem) {
+			return true;
+		}
+	});
+	
+});
+</script>
+<!--解决 IE6 背景缓存-->
+<!--[if IE 6]><script type="text/javascript">document.execCommand("BackgroundImageCache", false, true);</script><![endif]-->
+</head>
+
+<body>
+
+	<div class="container header">
+		<a class="logo" href="#"><img src="images/lo3.png" width="203" height="56" alt="" /></a>
+		<div class="ritside">
+			<script type="text/javascript">
+			document.write("<div class='today'>"+
+				getFullYear(today)+"年&nbsp;&nbsp;"
+				+isnMonths[today.getMonth()]+"月"
+				+today.getDate()+"日&nbsp;&nbsp;"
+				+isnDays[today.getDay()]
+			+"</div>");
+			</script>
+			<div class="telephone"><img src="images/telephone.gif" width="226" height="29" alt="咨询电话：0577-86602010" /></div>
+		</div>
+		<div class="clear"></div>
+		
+		<div class="nav">
+			<div class="nlbg"></div>
+            <ul>
+                <li><a href="/index">首 页</a></li>
+                <li><a href="/about">关于我们</a></li>
+                <li class="current"><a href="/product">回收项目</a></li>
+                <li><a href="/job">加入我们</a></li>
+                <li><a href="/serve">服务介绍</a></li>
+                <li class="last"><a href="/contact">联系我们</a></li>
+            </ul>
+			<div class="nrbg"></div>
+		</div>
+	</div><!--header end-->
+	
+	<div class="container content">
+		
+		<div class="banner"><a href="#"><img src="images/banner.jpg" width="960" height="277" alt="" /></a></div>
+		
+		<div class="left">
+			<div class="leftcon">
+				<div class="leftnav">
+##					<h2 class="title03">回收项目</h2>
+					<ul>
+						<li class="current"><a href="#">回收种类</a></li>
+						<li><a href="#">» 中央空调回收</a></li>
+						<li><a href="#">» 锅炉回收</a></li>
+						<li><a href="#">» 电动机回收</a></li>
+						<li><a href="#">» 电梯回收</a></li>
+						<li><a href="#">» 变压器回收</a></li>
+						<li><a href="#">» 废旧金属回收</a></li>
+						<li><a href="#">» ...</a></li>
+					</ul>
+				</div>
+				<div class="leftbtn"></div>
+			</div>
+			
+			<div class="side-tel"><a href="#"><img src="images/side-telephone.gif" width="211" height="71" alt="咨询热线" /></a></div>
+		</div><!--left end-->
+		
+		<div class="right">
+			<div class="breadcrumbs"><img src="images/home-icon.gif" width="16" height="17" alt="首页" />当前位置：<a href="#">首页</a><span>></span><span>回收项目</span></div>
+			
+			<div class="product">
+				<ul>
+					<div id="pageOne" style="display: block">
+                        <li>
+                            <a href="#"><img class="p-pic" src="images/product/20144111734114009.jpg" width="153" height="120" alt="巨回收再生资源" /></a>
+                            <span class="p-name"><a href="#">空调机组回收</a></span>
+                        </li>
+                        <li>
+                            <a href="#"><img class="p-pic" src="images/product/201412810421383410.jpg" width="153" height="120" alt="巨回收再生资源" /></a>
+                            <span class="p-name"><a href="#">各类电机回收</a></span>
+                        </li>
+                        <li>
+                            <a href="#"><img class="p-pic" src="images/product/201412810432087399.jpg" width="153" height="120" alt="巨回收再生资源" /></a>
+                            <span class="p-name"><a href="#">电线电缆回收</a></span>
+                        </li>
+                        <li>
+                            <a href="#"><img class="p-pic" src="images/product/201441117261368713.jpg" width="153" height="120" alt="巨回收再生资源" /></a>
+                            <span class="p-name"><a href="#">不锈钢回收</a></span>
+                        </li>
+                        <li>
+                            <a href="#"><img class="p-pic" src="images/product/201441117283623532.jpg" width="153" height="120" alt="巨回收再生资源" /></a>
+                            <span class="p-name"><a href="#">废旧电动机回收</a></span>
+                        </li>
+                        <li>
+                            <a href="#"><img class="p-pic" src="images/product/201441117285649558.jpg" width="153" height="120" alt="巨回收再生资源" /></a>
+                            <span class="p-name"><a href="#">电梯回收</a></span>
+                        </li>
+                        <li>
+                            <a href="#"><img class="p-pic" src="images/product/201441117292232491.jpg" width="153" height="120" alt="巨回收再生资源" /></a>
+                            <span class="p-name"><a href="#">变压器回收</a></span>
+                        </li>
+                        <li>
+                            <a href="#"><img class="p-pic" src="images/product/201441117313348208.jpg" width="153" height="120" alt="巨回收再生资源" /></a>
+                            <span class="p-name"><a href="#">废旧金属回收</a></span>
+                        </li>
+					</div>
+
+                    <div id="pageTwo" style="display: none">
+                        <li>
+                            <a href="#"><img class="p-pic" src="images/product/201441117351339948.jpg" width="153" height="120" alt="巨回收再生资源" /></a>
+                            <span class="p-name"><a href="#">废旧锅炉回收</a></span>
+                        </li>
+                        <li>
+                            <a href="#"><img class="p-pic" src="images/product/201441117463929327.jpg" width="153" height="120" alt="巨回收再生资源" /></a>
+                            <span class="p-name"><a href="#">注塑机回收</a></span>
+                        </li>
+                        <li>
+                            <a href="#"><img class="p-pic" src="images/product/2014101020264730494.jpg" width="153" height="120" alt="巨回收再生资源" /></a>
+                            <span class="p-name"><a href="#">中央空调回收</a></span>
+                        </li>
+                        <li>
+                            <a href="#"><img class="p-pic" src="images/product/2014101020284668059.jpg" width="153" height="120" alt="巨回收再生资源" /></a>
+                            <span class="p-name"><a href="#">二手空调回收</a></span>
+                        </li>
+                        <li>
+                            <a href="#"><img class="p-pic" src="images/product/20144111747631163.jpg" width="153" height="120" alt="巨回收再生资源" /></a>
+                            <span class="p-name"><a href="#">电焊机回收</a></span>
+                        </li>
+                        <li>
+                            <a href="#"><img class="p-pic" src="images/product/201412810424514277.jpg" width="153" height="120" alt="巨回收再生资源" /></a>
+                            <span class="p-name"><a href="#">发电机回收</a></span>
+                        </li>
+                        <li>
+                            <a href="#"><img class="p-pic" src="images/product/201792617504948369.jpg" width="153" height="120" alt="巨回收再生资源" /></a>
+                            <span class="p-name"><a href="#">室内拆除</a></span>
+                        </li>
+                        <li>
+                            <a href="#"><img class="p-pic" src="images/product/201792617515495694.jpg" width="153" height="120" alt="巨回收再生资源" /></a>
+                            <span class="p-name"><a href="#">工程拆除</a></span>
+                        </li>
+                    </div>
+
+                    <div id="pageThree" style="display: none">
+                    </div>
+
+				</ul>
+			</div>
+
+            <div class="pagebox">
+                <div class="pagination"><span class="disabled">&lt; </span><span onclick="jumpPageOne()" class="current">1</span><a href="#?page=2" onclick="jumpPageTwo()">2</a><a href="#?page=3" onclick="jumpPageThree()">3</a><a href="#?page=next" onclick="jumpPageNext()"> &gt; </a></div>
+            </div>
+			
+		</div><!--right end-->
+
+
+		
+		<div class="clear"></div>
+		
+	</div><!--content end-->
+
+    <div class="container footer">
+        <div class="btnmenu"><a href="/index">首 页</a><span>|</span><a href="/about">企业介绍</a><span>|</span><a href="/product">回收项目</a><span>|</span><a href="/job">加入我们</a><span>|</span><a href="/serve">服务介绍</a><span>|</span><a href="/contact">联系我们</a></div>
+        <div class="copyright">Copyright © 2018　上海巨回收再生资源公司所有<br />沪ICP备11030275号-2</div>
+    </div><!--footer end-->
+	
+</body>
+<script type="text/javascript" src="/js/product.js"></script>
+</html>

@@ -1,0 +1,128 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>上海巨回收再生资源有限公司</title>
+<meta name="keywords" content="上海巨回收再生资源有限公司" />
+<meta name="description" content="上海巨回收再生资源有限公司" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7"/>
+<link type="text/css" href="/css/style.css" rel="stylesheet" />
+<script type="text/javascript" src="/js/jquery.1.4.2.min.js"></script>
+<script type="text/javascript" src="/js/lib.js"></script>
+<script type="text/javascript">
+$(function() {
+
+	//导航
+	$(".nav").lavaLamp({
+		fx: "backinout", 
+		speed: 700,
+		click: function(event, menuItem) {
+			return true;
+		}
+	});
+	
+});
+</script>
+<!--解决 IE6 背景缓存-->
+<!--[if IE 6]><script type="text/javascript">document.execCommand("BackgroundImageCache", false, true);</script><![endif]-->
+</head>
+
+<body>
+
+	<div class="container header">
+		<a class="logo" href="#"><img src="images/lo3.png" width="203" height="56" alt="" /></a>
+		<div class="ritside">
+			<script type="text/javascript">
+			document.write("<div class='today'>"+
+				getFullYear(today)+"年&nbsp;&nbsp;"
+				+isnMonths[today.getMonth()]+"月"
+				+today.getDate()+"日&nbsp;&nbsp;"
+				+isnDays[today.getDay()]
+			+"</div>");
+			</script>
+			<div class="telephone"><img src="images/telephone.gif" width="226" height="29" alt="咨询电话：0577-86602010" /></div>
+		</div>
+		<div class="clear"></div>
+		
+		<div class="nav">
+			<div class="nlbg"></div>
+            <ul>
+                <li><a href="/index">首 页</a></li>
+                <li><a href="/about">关于我们</a></li>
+                <li><a href="/product">回收项目</a></li>
+                <li><a href="/job">加入我们</a></li>
+                <li class="current"><a href="/serve">服务介绍</a></li>
+                <li class="last"><a href="/contact">联系我们</a></li>
+            </ul>
+			<div class="nrbg"></div>
+		</div>
+	</div><!--header end-->
+	
+	<div class="container content">
+		
+		<div class="banner"><a href="#"><img src="images/banner.jpg" width="960" height="277" alt="" /></a></div>
+		
+		<div class="left">
+			<div class="leftcon">
+				<div class="leftnav">
+##					<h2 class="title02">服务介绍</h2>
+					<ul>
+						<li class="current"><a href="#">服务介绍</a></li>
+					</ul>
+				</div>
+				<div class="leftbtn"></div>
+			</div>
+			
+			<div class="side-tel"><a href="#"><img src="images/side-telephone.gif" width="211" height="71" alt="咨询热线" /></a></div>
+		</div><!--left end-->
+		
+		<div class="right">
+			<div class="breadcrumbs"><img src="images/home-icon.gif" width="16" height="17" alt="首页" />当前位置：<a href="#">首页</a><span>></span><span>服务介绍</span></div>
+			<div class="news">
+				<div class="first-news">
+					<div class="p-tit"><a href="#">了解更多>></a></div>
+				</div>
+				
+				<ul>
+					<li>
+						<div class="p-head" style="padding-left: 0px"><h2>第一步：</h2></div>
+						<div class="p-con">
+							您首先通过我们的网站获取我们的联系方式，联系我们。说明你需要处理的物品，以及你们的地址。
+						</div>
+					</li>
+					<li>
+                        <div class="p-head" style="padding-left: 0px"><h2>第二步：</h2></div>
+                        <div class="p-con">
+                            我们收到您的电话后会派人去您那进行察看
+                        </div>
+					</li>
+					<li>
+                        <div class="p-head" style="padding-left: 0px"><h2>第三步：</h2></div>
+                        <div class="p-con">
+                            察看后我们会评估回收价格，与您协商。
+                        </div>
+					</li>
+					<li>
+                        <div class="p-head" style="padding-left: 0px"><h2>第四步：</h2></div>
+                        <div class="p-con">
+                            协商成功，我们即日就会派车收回废旧物品。并当面支付现金给您。
+                        </div>
+					</li>
+				</ul>
+				
+			</div>
+
+			
+		</div><!--right end-->
+		
+		<div class="clear"></div>
+		
+	</div><!--content end-->
+
+    <div class="container footer">
+        <div class="btnmenu"><a href="/index">首 页</a><span>|</span><a href="/about">企业介绍</a><span>|</span><a href="/product">回收项目</a><span>|</span><a href="/job">加入我们</a><span>|</span><a href="/serve">服务介绍</a><span>|</span><a href="/contact">联系我们</a></div>
+        <div class="copyright">Copyright © 2018　上海巨回收再生资源公司所有<br />沪ICP备11030275号-2</div>
+    </div><!--footer end-->
+	
+</body>
+</html>
