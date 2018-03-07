@@ -44,7 +44,7 @@ $(function() {
 <body>
 
 	<div class="container header">
-		<a class="logo" href="#"><img src="images/lo3.png" width="203" height="56" alt="" /></a>
+		<a class="logo" href="#"><img src="images/logoko2.png" width="203" height="56" alt="" /></a>
 		<div class="ritside">
 			<script type="text/javascript">
 			document.write("<div class='today'>"+
@@ -54,7 +54,7 @@ $(function() {
 				+isnDays[today.getDay()]
 			+"</div>");
 			</script>
-			<div class="telephone"><img src="images/telephone.gif" width="226" height="29" alt="咨询电话：0577-86602010" /></div>
+			<div class="telephone">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/shouji.png" width="29" height="29" alt="咨询电话：13093636539" /><font size="5">13093636539</font></div>
 		</div>
 		<div class="clear"></div>
 		
@@ -102,7 +102,7 @@ $(function() {
 		<div class="f-r i-contact pubox">
 			<div class="putit"><h2 class="f-l">联系方式</h2><a class="f-r more" href="/contact">更多>></a></div>
 			<div class="pubcon">
-				地 址：上海市浦东新区<br />联系人：王某某<br />电 话：13093636539<br />邮 箱：<a style="text-decoration:underline;" href="mailto:1252468997@qq.com">1252468997@qq.com</a>
+				地 址：上海市松江区银翠路<br />联系人：王经理<br />电 话：13093636539<br />邮 箱：<a style="text-decoration:underline;" href="mailto:1252468997@qq.com">1252468997@qq.com</a>
 			</div>
 		</div>
 		

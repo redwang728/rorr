@@ -10,6 +10,10 @@ import java.net.Socket;
 import java.net.URL;
 
 public class SocketClient {
+    public static void main(String[] args) throws IOException{
+        SocketClient socketC = new SocketClient();
+        socketC.socketClient();
+    }
     // 搭建客户端
     public void socketClient() throws IOException {
         try {
